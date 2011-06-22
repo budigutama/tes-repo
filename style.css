@@ -1,0 +1,456 @@
+body
+{
+background: #FFF top;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+margin:0px auto auto auto;
+color:#000;
+}
+p{
+padding:2px;
+margin:0px;
+}
+a{
+	text-decoration:none;	
+}
+h3 {
+text-decoration:blink;
+color:#FF0000;
+text-align:center;
+}
+#main_container{
+margin:0 auto;border:#999999 solid 1px;
+-moz-box-shadow:0px 5px 10px #555;
+-webkit-box-shadow: 0px 5px 10px #555;
+-moz-border-radius: 15px 0px 15px 0px;
+-webkit-border-radius: 15px 0px 15px 0px;
+width:1000px;
+height:auto;
+margin:auto;
+margin-top:10px;
+margin-bottom:60px;
+padding-top:0px;
+background-color:#fff;
+}
+#header{
+width:998px;
+height:136px;
+margin-left:1px;
+margin-top:1px;
+-moz-border-radius: 15px 0px 0px 0px;
+-webkit-border-radius: 15px 0px 0px 0px;
+background:url(images/header.png) #666 no-repeat center;
+}
+
+/*-------------left_content------------------*/
+.left_content{
+width:180px;
+float:left;
+padding:0 0 0 5px;
+}
+.border_box{
+width:180px;
+height:auto;
+float:left;
+border:#666  solid 1px;
+-moz-border-radius: 10px 0px 10px 0px;
+-webkit-border-radius: 10px 0px 10px 0px;
+-moz-box-shadow:0px 5px 10px #555;
+-webkit-box-shadow: 0px 5px 10px #555;
+text-align:center;
+background:url(images/box_bottom_bg.gif) no-repeat center bottom;
+margin-bottom:10px;
+margin-top:10px;
+padding-bottom:8px;
+}
+
+.title_box{
+width:180px;
+height:25px;
+margin:0px 0 0 0;
+background:#666;
+-moz-border-radius: 8px 0px 0px 0px;
+-webkit-border-radius: 8px 0px 0px 0px;
+text-align:center;
+font-size:13px;
+font-weight:bold;
+margin-bottom:5px;
+color:#FFF;
+font-family:Arial;
+line-height:25px;
+}
+.buton{
+background:#999;
+border:0px;
+padding:2px;
+margin-left:4px; 
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-box-shadow:2px 2px 5px #555;
+-webkit-box-shadow: 2px 2px 5px #555;
+font-size:12px;
+color:#000;
+font-weight:bold;
+}
+.buton:hover{
+color:#FFF;
+}
+
+/*----------newsletter--------------*/
+input.newsletter_input{
+width:140px;
+height:21px;
+border:1px #ddd9d9 solid;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin:10px 0 5px 0;
+font-size:12px;
+padding:2px;
+color:#000;
+}
+/*--------------sorting------------------*/
+.sorting{
+	float:right;
+	width:250px;
+	height:36px;
+	margin-top:-48px;
+	margin-right:6px;
+}
+select.urut{
+	border:1px #ddd9d9 solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size:12px; 
+	font-weight:bold; 
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*---------center content--------------------------*/
+.center_content{
+width:600px;
+float:left;
+padding:5px 10px 5px 15px;
+}
+.center_title_bar{
+width:575px;
+height:31px;
+float:left;
+padding:0 0 0 10px;
+margin:0 0 0 5px;
+line-height:31px;
+font-size:12px;
+color:#fff;
+font-weight:bold;
+background:#666 url(images/footer_logo.png) no-repeat right;
+-moz-border-radius: 5px 5px 0px 0px;
+-webkit-border-radius:  5px 5px 0px 0px;
+}
+
+/*----------------------keranjang--------------*/
+.right_content{
+width:180px;
+float:left;
+padding:0px;
+}
+
+.shopping_cart{
+width:180px;
+height:84px;
+text-align:center;
+}
+.cart_details{
+width:115px;
+float:left;
+padding:5px 0 0 15px;
+text-align:left;
+}
+.cart_icon{
+float:left;
+padding:5px 0 0 5px;
+}
+span.border_cart{
+width:100px;
+height:1px;
+margin:3px 0 3px 0;
+display:block;
+border-top:1px #999999 dashed;
+}
+/*---------prod_box----------*/
+.prod_box{
+width:160px;
+height:210px;
+float:left;
+margin-left:10px;
+padding:12px 12px 12px 13px;
+}
+.center_prod_box{
+width:160px;
+height: 175px;
+}
+.frame{
+	margin-left:-3px;
+	margin-top:-2px;
+	margin-top:-177px;
+	display:block;
+	float:left;
+	width:166px;
+	height:210px;
+background:url(images/4.png) no-repeat;
+}
+.product_title a{
+text-decoration:none;
+color:#333;
+padding:5px 0 5px 8px;
+font-weight:bold;
+display:block;
+}
+.product_title a:hover{
+color:#FFF;
+background:#999;
+display:block;
+}
+.product_img{
+	float:left;
+}
+.prod_price{
+	float:left;
+	margin-top:-38px;
+	padding:5px 0 5px 0;
+	font-weight:bold;
+	font-size:12px;
+	color:#666;
+	text-align:left;
+	padding-left:2px;
+}
+.nama_prod{
+	float:left;
+	text-align:left;
+	width:150px;
+	height:10px;
+	margin-top:-17px;
+	font-weight:bold;
+	font-size:12px;
+	padding-left:2px;
+}
+/*---------prod_box_big----------*/
+.prod_box_big{
+width:554px;
+height:auto;
+float:left;
+padding:10px 10px 10px 6px;
+}
+.center_prod_box_big{
+width:560px;height: auto;float:left; text-align:left;padding:10px 10px 10px 10px; margin:0px;border:2px #F0F4F5 solid;
+-moz-border-radius: 14px;
+-webkit-border-radius: 14px;
+}
+.detail_img{
+	width:100%;
+}
+/*--------------footer----------------*/
+.footer{
+width:1000px;
+clear:both;
+height:50px;
+}
+.footer-conten{
+	float:left;
+	padding-left:5px;
+	margin-top:60px;
+	font-size:12px;
+	padding-right:10px;
+	font-style: italic;
+}
+.footer-kanan{
+	font-size: 12px;
+	font-style: italic;
+	color: #666;
+	float:right;
+	margin-top:60px;
+	padding-left:8px;
+	background:url(images/arrow.gif) no-repeat 1px;
+	margin-right:10px;
+}
+.footer-kanan:hover{
+	color:#F00;
+}
+/*--------------menu tab----------------*/
+#menu_tab{
+width:998px;
+height:36px;
+margin-left:1px;
+margin-top:5px;
+background: url(images/bg_menu.gif) repeat-x;
+}
+.menu_tab_img{
+	float:left;
+	font-size:16px;
+	margin-left:710px;
+	font-weight:bold;
+	padding:2px;
+	color:#000;
+	height:25px;
+	width:80px;
+	text-align:center;
+}
+.menu_tab_img:hover{
+	height:23px;
+	background:#666;
+}
+/*--------------cari----------------*/
+#cari {
+	text-align:right;
+	margin-right:8px;
+	margin-top:-5px;
+}
+/*--------------urutkan berdasarkan size, warna, harga----------------*/
+.judul{
+	font-family:'Comic Sans MS'; 
+	font-size:13px; 
+	font-weight:bold;
+	color:#666;
+	text-align:left;
+	padding-left:8px;
+}
+.blok{
+width:176px;
+height:auto;
+padding:2px;
+float:left;
+}
+.center-warna{
+width:36px;
+height:30px;
+border:1px solid #999;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+display:inline-block;
+margin:3px;
+float:left;
+}
+.dwarna{
+width:30px;
+height:30px;
+border:1px solid #999;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+display:inline-block;
+margin-right:-30px;
+margin-top:-40px;
+}
+.center-harga{
+width:49px;
+display:inline-table;
+height:22px;
+border:1px solid #999;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+font-size:12px;
+font-weight:bold;
+color:#666;
+padding-top:6px;
+margin:3px;
+float:left;
+}
+.center-harga:hover{
+	color:#FFF;
+	background:#999;
+}
+.panah{
+	background:url(images/panah.png) no-repeat;
+	display:inline-block;
+	height:66px;
+	width:106px;
+	vertical-align:middle;
+	padding-top:14px;
+	text-align:left;
+}
+.panah2{
+	background:url(images/panah2.png) no-repeat;
+	display:inline-block;
+	height:66px;
+	width:106px;
+	vertical-align:middle;
+	padding-top:14px;
+	text-align:left;
+}
+.step{
+	font-size:14px;
+	color:#09C;
+	font-weight:600;
+}
+.alamat {
+	background:#CFCFCF; 
+	margin:10px; 
+	padding:10px;
+	font-size:12px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+}
+
+/*--------------halaman----------------*/
+div.pagination {
+width:565px;
+padding:5px;
+margin:5px;
+text-align:center;
+float:left;
+clear:both;
+font-size:10px;
+}
+
+div.pagination a {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #666;
+text-decoration: none; 
+color: #666;
+}
+div.pagination a:hover, div.pagination a:active {
+border:1px solid #666;
+color: #fff;
+background-color: #666;
+}
+div.pagination span.current {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #666;
+font-weight: bold;
+background-color: #666;
+color: #FFF;
+}
+div.pagination span.disabled {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #f3f3f3;
+color: #ccc;
+}
+.spesifikasiukuran{
+	float:right;
+	clear:both; 
+	border:2px #00FF00 solid; 
+	background:#FFFFFF; 
+	color:#333333;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	padding:2px;
+	width:280px;
+}
+table {
+font-size:12px;
+}
+.notfjml{
+	float:right;
+	border:2px #66FF66 solid;
+	background:#FF0000;
+	width:15px;
+	text-align:center; 
+	text-decoration:blink;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	padding:1px;
+	font-size:12px;
+	margin-top:-20px;
+	margin-left:-6px;
+}

@@ -1,0 +1,36 @@
+.submit {
+  margin-left: 155px;
+  margin-top: 10px;
+}
+
+.label {
+  display: block;
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+label.error {
+  width: 200px;
+  display: block;
+  float: left;
+  color: red;
+  padding-left: 10px;
+  margin: -15px 0px 0px 350px;
+  position:absolute;
+  background: url(unvalid.gif) no-repeat;
+}
+
+.inputan {
+  float: left;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+label.valid {
+  width: 5px;
+  background: url(valid.gif) center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}

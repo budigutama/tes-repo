@@ -1,0 +1,20 @@
+Update :
+-Database : Update table ukuran..(DDL: elitezdb.sql)
+# ADMIN
+-File : *style.css
+	*inc/detailproduk.php
+	*inc/ukuran.php
+	*inc/DetSize.php(tambah)
+
+#Front page
+-file : *index.php
+	*style.css
+	*notif.css(tambah)
+	*inc/detail.php
+	*inc/notif.php
+-gambar : *konfirmasi.png
+	  *konfirmasi2.png
+	  *kirim.png
+	  *kirim2.png
+	  *pesan.png
+	  *pesan2.png

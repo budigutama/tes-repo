@@ -1,0 +1,169 @@
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmmc a, .qmmc li {
+display : block;
+white-space : nowrap;
+position : relative;
+z-index : 1;
+}
+.qmmc div a, .qmmc ul a, .qmmc ul li {
+float : none;
+padding-left:85px;
+}
+.qmsh div a {
+float : left;
+}
+.qmmc div {
+visibility : hidden;
+position : absolute;
+}
+.qmmc .qmcbox {
+cursor : default;
+display : inline-block;
+position : relative;
+z-index : 1;
+}
+.qmmc .qmcbox a {
+display : inline;
+}
+.qmmc .qmcbox div {
+float : none;
+position : static;
+visibility : inherit;
+left : auto;
+}
+.qmmc li {
+z-index : auto;
+}
+.qmmc ul {
+left : -10000px;
+position : absolute;
+z-index : 10;
+}
+.qmmc, .qmmc ul {
+list-style : none;
+padding : 0;
+margin : 0;
+}
+.qmmc li a {
+float : none;
+}
+.qmmc li:hover > ul {
+left : auto;
+}
+#qm0 ul {
+top : 100%;
+}
+#qm0 ul li:hover > ul {
+top : 0;
+} 
+
+/*!!!!!!!!!!! QuickMenu Styles !!!!!!!!!!!*/
+
+
+	/* QuickMenu 0 */
+
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{	
+		width:auto;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+		padding:5px 20px 5px 8px;
+		color:#333;
+		font-family:Arial;
+		font-size:13px;
+		text-decoration:none;
+		text-align:left;
+		font-weight:bold;
+	}
+	/*"""""""" (MAIN) Hover State - (duplicated for pure CSS)""""""""*/	
+	#qm0 li:hover>a	
+	{	
+		background-color:#999;
+		color:#1d1d1d;
+		width:100px;
+	}
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div, #qm0 ul	
+	{	
+		padding:4px;
+		margin:0px;
+		margin-top:-31px;
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+		padding:3px 40px 5px 5px;
+		color:#333;
+		font-size:11px;
+		background-color:#aaa;  /*"""""""" warna tabel""""""""*/
+
+	}
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover	
+	{	
+		background-color:#CCC;
+		color:#1D1D1D;
+		text-decoration:none;
+		border-color:#def6ff;
+	}
+
+
+	/*"""""""" (SUB) Hover State - (duplicated for pure CSS)""""""""*/	
+	#qm0 ul li:hover>a	
+	{	
+		background-color:#ccc;
+		color:#1d1d1d;
+		text-decoration:none;
+		border-color:#def6ff;
+	}
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+	{	
+		background-color:#ccc;
+		color:#222222;
+		text-decoration:underline;
+		border-color:#def6ff;
+	}
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 ul li:hover > a.qmparent	
+	{	
+		background-image:url(images/arrow-right.gif);
+		text-decoration:underline;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 ul li .qmparent	
+	{	
+		background-image:url(qmimages/arrow-right.gif);
+		background-repeat:no-repeat;
+		background-position:92% 50%;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 li:hover > a.qmparent	
+	{	
+		background-image:url(qmimages/arrow-right.gif);
+		text-decoration:underline;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 li .qmparent	
+	{	
+		background-image:url(qmimages/arrow-right.gif);
+		background-repeat:no-repeat;
+		background-position:92% 50%;
+	}

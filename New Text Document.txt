@@ -1,0 +1,31 @@
+<div style="float:right; width:300px">
+<script>
+$(document).ready(function(){
+	$("a.tab").click(function () {
+		$(".tabactive").removeClass("tabactive");
+		$(this).addClass("tabactive");
+		$(".tabcontent").slideUp();
+		var content_show = $(this).attr("title");
+		$("#"+content_show).slideDown();
+		return false;
+	});
+});
+</script>
+
+<div id="tabbed_box_1" class="tabbed_box" style="width:300px;">
+    <div class="tabbed_area">
+		<ul class="tabs"><li><a href="#" title="content_1_1" class="tab  tabactive">Cowok M</a></li><li><a href="#" title="content_1_2" class="tab "> XL</a></li><li><a href="#" title="content_1_3" class="tab "> 3L</a></li></ul><div id="content_1_1" class="tabcontent">
+						<ul><li><div>Lebar bahu</div><strong>41</strong> cm</li><li><div>Lingkar dada</div><strong>91</strong> cm</li><li><div>Lingkar pinggang</div><strong>91</strong> cm</li><li><div>Tinggi</div><strong>67</strong> cm</li><li><div>Panjang lengan</div><strong>20</strong> cm</li></ul></div><div id="content_1_2" class="tabcontent">
+						<ul><li><div>Lebar bahu</div><strong>46</strong> cm</li><li><div>Lingkar dada</div><strong>102</strong> cm</li><li><div>Lingkar pinggang</div><strong>102</strong> cm</li><li><div>Tinggi</div><strong>72</strong> cm</li><li><div>Panjang lengan</div><strong>24</strong> cm</li></ul></div><div id="content_1_3" class="tabcontent">
+						<ul><li><div>Lebar bahu</div><strong>48</strong> cm</li><li><div>Lingkar dada</div><strong>105</strong> cm</li><li><div>Lingkar pinggang</div><strong>105</strong> cm</li><li><div>Tinggi</div><strong>75</strong> cm</li><li><div>Panjang lengan</div><strong>26</strong> cm</li></ul></div></div></div>
+			<style>
+			#tabbed_box_1 {
+				width:350px;
+				margin: 0px 0 0px 0;
+			}
+			#content_1_2 { display:none; }
+#content_1_3 { display:none; }
+
+			</style>
+
+</div>
